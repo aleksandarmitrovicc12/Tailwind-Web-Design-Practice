@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tailwind Landing page</title>
+</head>
+<body>
+    <!-- Navi Start -->
+    <div class="border-b-1 bg-[#3D5A80]">
+        <nav class="container flex flex-col lg:flex-row p-5 justify-between mx-auto items-center">
+            <h5 class="font-[Open_Sans] text-lg uppercase font-bold text-white mb-5 lg:mb-0">Tailwind</h5>
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-10 lg:items-center ">
+                <ul class="flex gap-10 lg:gap-15">
+                    <li class="font-[Open_Sans] text-base text-white hover:text-[#EE6C4D]"><a href="./pages/page1.html">Page 1</a></li>
+                    <li class="font-[Open_Sans] text-base text-white hover:text-[#EE6C4D]"><a href="./pages/page2.html">Page 2</a></li>
+                    <li class="font-[Open_Sans] text-base text-white hover:text-[#EE6C4D]"><a href="./pages/page3.html">Page 3</a></li>
+                </ul>
+                <button class="bg-[#EE6C4D] px-12 py-3 font-[Open_Sans] text-base text-white hover:bg-[#f05530] rounded-md">Get in Touch</button>
+            </div>
+        </nav>
+    </div>
+    <!-- Navi End -->
+
+    <!-- Hero Section Start -->
+    <section class="bg-[#3D5A80] p-10 lg:p-20">
+        <div class="container flex flex-col lg:flex-row justify-between mx-auto items-center gap-10">
+            <div class="flex flex-col gap-5">
+                <h1 class="font-[Open_Sans] text-5xl font-bold text-white  lg:w-lg">Create your website in <span class="text-[#EE6C4D]">less than 5 days</span></h1>
+                <p class="font-[Open_Sans] text-base text-white lg:w-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus iusto deserunt reprehenderit repellat eaque nesciunt ad, omnis mollitia cupiditate expedita.</p>
+                <button class="bg-[#EE6C4D] px-12 py-3  lg:w-3xs font-[Open_Sans] text-base text-white hover:bg-[#f05530] rounded-md">Get in Touch</button>
+            </div>
+            <div>
+                <img src="./assets/hero.webp" alt="Hero Image" class="w-50%">
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section class="bg-[#293241] p-10 lg:p-30">
+        <div class="container flex flex-col lg:flex-row justify-between mx-auto items-center gap-15">
+            <div class="lg:w-1/2 md:w-full">
+                <img src="./assets/technologies.png" alt="technologies" class="lg:w-[80%] md:w-full">
+            </div>
+            <div class="lg:w-1/2 md:w-full">
+                <div class="flex flex-col gap-5 lg:w-[85%] md:w-full">
+                    <h2 class="font-[Open_Sans] text-3xl text-white">About Me</h2>
+                    <div class="h-1 bg-[#EE6C4D]"></div>
+                    <p class="font-[Open_Sans] text-lg text-white">My passion for building websites started since 2013 and since then i have helped companies around the world build amazing websites and products that create real value for the business and users.</p>
+                    <p class="font-[Open_Sans] text-lg text-white">I enjoy solving problems with clean scalable solutions and I also have a genuine passion for inspiring design.</p>
+                    <p class="font-[Open_Sans] text-lg text-white">I am a fullstack developer focusing on core frontend and backend technologies which include HTML, CSS, Javascript, React and other core languages</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- About Section End -->
+
+    <!-- Companies Section Start -->
+    <section class="bg-[#2F3746] p-10 lg:p-15">
+        <div class="container flex flex-col items-center gap-5 mx-auto">
+            <h2 class="text-3xl text-white">Companies I have worked for</h2>
+            <div class="h-1 bg-[#EE6C4D] w-[132px] mb-10"></div>
+            <div class="flex flex-row flex-wrap gap-15 justify-center">
+                <img src="./assets/google.png" alt="Google" class="object-contain">
+                <img src="./assets/Bolt.png" alt="Bolt" class="object-contain">
+                <img src="./assets/amazon.png" alt="Amazon" class="object-contain">
+                <img src="./assets/paypal.png" alt="PayPal" class="object-contain">
+                <img src="./assets/netflix.png" alt="Netflix" class="object-contain">
+            </div>
+        </div>
+
+    </section>
+    <!-- Companies Section End -->
+
+    <!-- Work Section Start -->
+    <section class="bg-[#293241] p-10 lg:p-30">
+        <div class="container flex flex-col  gap-5 mx-auto">
+            <h2 class="font-[Open_Sans] text-white text-3xl capitalize">My recent works</h2>
+            <div class="h-1 w-[187px] bg-[#EE6C4D] mb-5"></div>
+            <!-- Portfolio Element -->
+            <div class="flex flex-col gap-10">
+                <!-- Portfolio Row -->
+                 <div class="flex lg:flex-row flex-col gap-10 justify-between">
+                    <!-- Porfolio Item -->
+                     <div class="w-full flex flex-col gap-5">
+                        <h4 class="font-[Open_Sans] text-white text-lg">Ecommerce Landing Page</h4>
+                        <div class="relative">
+                            <img src="./assets/ecom.png" alt="Ecommerce" class="w-full">
+                                <div class="flex bg-[#3D5A80] w-[85px] h-[37px] rounded-lg justify-center items-center absolute bottom-0 right-0">
+                                    <p class="font-[Open_Sans] text-base text-white">11 days</p>
+                                </div>
+                        </div>
+                     </div>
+                     <!-- Porfolio Item -->
+                     <div class="w-full flex flex-col gap-5">
+                        <h4 class="font-[Open_Sans] text-white text-lg">Ecommerce Landing Page</h4>
+                        <div class="relative">
+                            <img src="./assets/ecom.png" alt="Ecommerce" class="w-full">
+                                <div class="flex bg-[#3D5A80] w-[85px] h-[37px] rounded-lg justify-center items-center absolute bottom-0 right-0">
+                                    <p class="font-[Open_Sans] text-base text-white">11 days</p>
+                                </div>
+                        </div>
+                     </div>
+                     <!-- Porfolio Item -->
+                     <div class="w-full flex flex-col gap-5">
+                        <h4 class="font-[Open_Sans] text-white text-lg">Ecommerce Landing Page</h4>
+                        <div class="relative">
+                            <img src="./assets/ecom.png" alt="Ecommerce" class="w-full">
+                                <div class="flex bg-[#3D5A80] w-[85px] h-[37px] rounded-lg justify-center items-center absolute bottom-0 right-0">
+                                    <p class="font-[Open_Sans] text-base text-white">11 days</p>
+                                </div>
+                        </div>
+                     </div>
+                 </div>
+                <!-- Portfolio Row -->
+                 <div class="flex lg:flex-row flex-col gap-10 justify-between">
+                    <!-- Porfolio Item -->
+                     <div class="w-full flex flex-col gap-5">
+                        <h4 class="font-[Open_Sans] text-white text-lg">Ecommerce Landing Page</h4>
+                        <div class="relative">
+                            <img src="./assets/ecom.png" alt="Ecommerce" class="w-full">
+                                <div class="flex bg-[#3D5A80] w-[85px] h-[37px] rounded-lg justify-center items-center absolute bottom-0 right-0">
+                                    <p class="font-[Open_Sans] text-base text-white">11 days</p>
+                                </div>
+                        </div>
+                     </div>
+                     <!-- Porfolio Item -->
+                     <div class="w-full flex flex-col gap-5">
+                        <h4 class="font-[Open_Sans] text-white text-lg">Ecommerce Landing Page</h4>
+                        <div class="relative">
+                            <img src="./assets/ecom.png" alt="Ecommerce" class="w-full">
+                                <div class="flex bg-[#3D5A80] w-[85px] h-[37px] rounded-lg justify-center items-center absolute bottom-0 right-0">
+                                    <p class="font-[Open_Sans] text-base text-white">11 days</p>
+                                </div>
+                        </div>
+                     </div>
+                     <!-- Porfolio Item -->
+                     <div class="w-full flex flex-col gap-5">
+                        <h4 class="font-[Open_Sans] text-white text-lg">Ecommerce Landing Page</h4>
+                        <div class="relative">
+                            <img src="./assets/ecom.png" alt="Ecommerce" class="w-full">
+                                <div class="flex bg-[#3D5A80] w-[85px] h-[37px] rounded-lg justify-center items-center absolute bottom-0 right-0">
+                                    <p class="font-[Open_Sans] text-base text-white">11 days</p>
+                                </div>
+                        </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="btn bg-transparent border hover:border-[#EE6C4D] rounded-md hover:bg-[#EE6C4D] px-12 py-3 text-[#EE6C4D] hover:text-white capitalize mt-10">See more</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- Work Section End -->
+
+    <!-- Testimonial Section Start -->
+    <section class="bg-[#2F3746] p-10 lg:p-30">
+        <div class="container flex flex-col items-center gap-5 mx-auto">
+            <h2 class="font-[Open_Sans] text-white text-3xl">What my clients say</h2>
+            <div class="h-1 w-[157px] bg-[#EE6C4D] mb-5"></div>
+            <!-- Testimonial Section-->
+            <div class="flex gap-10 flex-col lg:flex-row p-1">
+            <!-- Testimonial Slide-->
+            <div class="flex flex-col bg-[#1A1E26] lg:w-[475px] p-5 gap-2 rounded-sm">
+                    <!--First Row -->
+                    <div class="flex w-full">
+                        <!-- Left Column -->
+                        <div class="w-[80%] flex gap-5">
+                            <img src="./assets/test1.png" alt="Testimonial 1" class="h-[40px] w-[40px]">
+                            <div>
+                                <h5 class="font-[Open_Sans] text-white text-base">Charles Dim</h5>
+                                <p class="font-[Open_Sans] text-white text-[#C5C5C5] text-sm">Lead Designer, Netflix</p>
+                            </div>
+                        </div>
+                        <!-- Right Column-->
+                        <div class="w-[20%] flex items-center justify-end">
+                            <img src="./assets/quote.png" alt="quote" class="h-[18px] w-[18px]">
+                        </div>
+
+                    </div>
+                    <!-- Second Row-->
+                    <div>
+                        <p class="font-[Open_Sans] text-base/[130%] text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt in malesuada tristique arcu non eu lectus orci. Amet non, sed eget ultrices cursus diam orci. Risus sed tristique lectus fusce lacus.</p>
+                    </div>
+                 </div>
+            <!-- Testimonial Slide-->
+            <div class="flex flex-col bg-[#1A1E26] lg:w-[475px] p-5 gap-2 rounded-sm">
+                    <!--First Row -->
+                    <div class="flex w-full">
+                        <!-- Left Column -->
+                        <div class="w-[80%] flex gap-5">
+                            <img src="./assets/test1.png" alt="Testimonial 1" class="h-[40px] w-[40px]">
+                            <div>
+                                <h5 class="font-[Open_Sans] text-white text-base">Charles Dim</h5>
+                                <p class="font-[Open_Sans] text-white text-[#C5C5C5] text-sm">Lead Designer, Netflix</p>
+                            </div>
+                        </div>
+                        <!-- Right Column-->
+                        <div class="w-[20%] flex items-center justify-end">
+                            <img src="./assets/quote.png" alt="quote" class="h-[18px] w-[18px]">
+                        </div>
+
+                    </div>
+                    <!-- Second Row-->
+                    <div>
+                        <p class="font-[Open_Sans] text-base/[130%] text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt in malesuada tristique arcu non eu lectus orci. Amet non, sed eget ultrices cursus diam orci. Risus sed tristique lectus fusce lacus.</p>
+                    </div>
+            </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Contact Us Section Start -->
+    <section class="bg-[#3D5A80] p-10 lg:p-20">
+        <div class="container lg:w-[60%] mx-auto">
+            <h2 class="font-[Open_Sans] text-3xl text-white mb-3">Tell me about your project</h2>
+            <div class="w-[300px] h-1 bg-[#EE6C4D] mb-5"></div>
+            <div class="flex flex-col gap-3">
+                <!-- First Row -->
+                 <div class="flex flex-col lg:flex-row gap-5">
+                    <input type="text" name="Name" placeholder="Name" id="" class="bg-[#26384F] lg:w-1/2 rounded-sm  focus:border-white text-white font-[Open_Sans] px-5 py-3 text-base">
+                    <input type="email" name="Email" placeholder="Put your e-mail address" id="" class="bg-[#26384F] lg:w-1/2 rounded-sm  focus:border-white text-white font-[Open_Sans] px-5 py-3 text-base">
+                 </div>
+                <!-- Second Row -->
+                 <div>
+                    <textarea name="message" rows="4" cols="50" placeholder="Tell us about your project" id="" class="bg-[#26384F] w-full rounded-sm  focus:border-white text-white font-[Open_Sans] px-5 py-3 text-base"></textarea>
+                 </div>
+
+            </div>
+            <button class="bg-[#EE6C4D] px-12 py-3 font-[Open_Sans] text-base text-white hover:bg-[#f05530] rounded-md mt-5">Send</button>
+        </div>
+    </section>
+    <!-- Contact Us Section End-->
+
+    <!-- Footer Start -->
+     <footer class="bg-[#293241] p-10">
+        <div class="container flex flex-col lg:flex-row mx-auto items-center justify-between">
+            <h5 class="font-[Open_Sans] text-lg uppercase font-bold text-white mb-5 lg:mb-0">Tailwind</h5>
+            <p class="font-[Open_Sans] text-base text-white">© Copyright 2026. All right reserved</p>
+            <div class="flex gap-3 mt-5">
+                <p class="font-[Open_Sans] text-lg text-white">Connect with me:</p>
+                <div class="flex gap-2 items-center justify-center">
+                    <div class="flex bg-[#191F28] hover:bg-[#333333] h-[32px] w-[32px] rounded-full justify-center items-center"><img src="./assets/fb.png" alt="Facebook" class="h-[16px] object-contain"></div>
+                    <div class="flex bg-[#191F28] hover:bg-[#333333] h-[32px] w-[32px] rounded-full justify-center items-center"><img src="./assets/x.png" alt="X" class="h-[19px]"></div>
+                    <div class="flex bg-[#191F28] hover:bg-[#333333] h-[32px] w-[32px] rounded-full justify-center items-center"><img src="./assets/git.png" alt="GitHub" class="h-[17px]"></div>
+                </div>
+            </div>
+        </div>
+ 
+     </footer>
+    <!-- Footer End -->
+</body>
+</html>
