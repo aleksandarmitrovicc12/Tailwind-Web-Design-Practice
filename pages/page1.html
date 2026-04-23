@@ -3,11 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <!-- Tailwind CSS-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Crito</title>
 </head>
 <body>
-    
+    <!-- Header Start -->
+    <nav class="bg-[#141F39] p-7 lg:p-10">
+        <div class="container flex flex-col lg:flex-row gap-5 justify-between items-center mx-auto">
+            <img src="../assets/crito/logo.png" alt="Crito Logo" class="object-contain">
+            <ul class="flex gap-5 lg:gap-10">
+                <li class="font-[Inter] text-base/7 font-medium text-white transition-colors duration-300 hover:text-[#38DA71]"> <a href="#">Home</a></li>
+                <li class="font-[Inter] text-base/7 font-medium text-white transition-colors duration-300 hover:text-[#38DA71]"><a href="#">Pages</a></li>
+                <li class="font-[Inter] text-base/7 font-medium text-white transition-colors duration-300 hover:text-[#38DA71]"><a href="#">Clients</a></li>
+                <li class="font-[Inter] text-base/7 font-medium text-white transition-colors duration-300 hover:text-[#38DA71]"><a href="#">CTA</a></li>
+                <li class="font-[Inter] text-base/7 font-medium text-white transition-colors duration-300 hover:text-[#38DA71]"><a href="#">Contact</a></li>
+            </ul>
+            <button class="bg-[#38DA71] transition-colors duration-300 hover:bg-[#0acc4e] font-medium text-white text-base/7 px-8 py-2 rounded-md capitalize"> Get started free</button>
+        </div>
+    </nav>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section class="bg-[#141F39]">
+        <div class="container flex flex-col items-center justify-center mx-auto p-5 lg:p-30 gap-15">
+            <!-- First Row -->
+            <div class="flex flex-col items-center mx-auto">
+                <!-- Main Content -->
+                <div>
+                <h1 class="font-[Plus_Jakarta_Sans] lg:w-[683px] text-center font-bold text-white text-5xl lg:text-7xl relative z-99 mb-5">Smart-Thinking & Innovative Solution</h1>
+                <svg class="lg:h-[286px] lg:w-[225px] w-[30%] absolute top-[180px] z-0" viewBox="-120 -120 240 240" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M 79.35288037361238,0 C 84.24092345870831,25.013986750047643 85.47014501604032,36.87769601216654 69.39710331913832,58.23108379986056 C 53.32406162223633,79.58447158755459 41.41736714251469,84.37008623508801 15.060713586004388,85.41355115077609 C -11.295939970505914,86.45701606646416 -16.469660855407536,78.00954090788088 -36.02951090690289,62.404943462612856 C -55.589360958398245,46.80034601734484 -50.07701729941514,46.643432268561014 -63.17868661997704,22.99516136970404 C -76.28035594053895,-0.653109529152939 -93.76719867034366,-8.315757004179755 -88.43618818915051,-32.188140132815064 C -83.10517770795737,-56.06052326145037 -67.571614510138,-60.07985937930569 -41.85464469520444,-72.4943711448372 C -16.137674880270872,-84.90888291036872 -8.493202847905994,-89.51356418106793 14.431691070583767,-81.84618719494114 C 37.356584989073525,-74.17881020881434 33.614633652997455,-62.286409999065285 49.844930978754604,-41.82486320033 C 66.07522830451175,-21.363316401594716 74.46483728851645,-25.013986750047643 79.35288037361238,0 Z" fill="#FF928A" />
+                              </svg>
+                </div>
+                <p class="font-[Inter] text-lg text-white lg:w-[60%] text-center mb-5 z-99">Class aptent taciti sociosqu ad litora torquent conubia nostrama inceptos himenaeos. Donec tristique nibh ipsum dignissim.</p>
+                <div class="flex lg:gap-10 gap-5 mt-5">
+                    <button class="px-[30px] py-[16px] font-semibold font-[Inter] text-white text-lg bg-[#38DA71] transition-colors duration-300 hover:bg-[#0acc4e] border border-[#38DA71] hover:border-[#0acc4e] rounded-md">Discover More</button>
+                    <button class="px-[15px] py-[16px] font-semibold font-[Inter] text-white text-lg bg-transparent border border-white hover:border-[#0acc4e] transition-colors duration-300 hover:bg-[#0acc4e] rounded-md">Explore Services →</button>
+                </div>
+                <!-- Icon Boxes-->
+                <div class="flex gap-4 mt-8 flex-col lg:flex-row">
+                    <div class="flex gap-2 items-center justify-center">
+                        <img src="../assets/crito/check.png" alt="checkmark" class="h-[20px] w-[20px]">
+                        <p class="font-[Inter] text-md text-white">Get 15 days free trial</p>
+                    </div>
+                <div class="flex gap-2 items-center justify-center">
+                        <img src="../assets/crito/check.png" alt="checkmark" class="h-[20px] w-[20px]">
+                        <p class="font-[Inter] text-md text-white">No credit card is required </p>
+                </div>
+                <div class="flex gap-2 items-center justify-center">
+                        <img src="../assets/crito/check.png" alt="checkmark" class="h-[20px] w-[20px]">
+                        <p class="font-[Inter] text-md text-white">Cancel anytime</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Row -->
+            <div class="flex gap-10 lg:flex-row flex-col">
+                <!-- First Box-->
+                <div class="flex flex-col justify-between">
+                    <img src="../assets/crito/box1.jpg" alt="box1" class="w-full">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-white font-[Inter]">June 15-30, <b>New York-USA</b></p>
+                        <img src="../assets/crito/arrow-right.png" alt="Arrow Right">
+                    </div>
+                </div>
+                <!-- Second Box-->
+                <div class="flex flex-col justify-between">
+                    <img src="../assets/crito/box1.jpg" alt="box1" class="w-full">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-white font-[Inter]">June 15-30, <b>New York-USA</b></p>
+                        <img src="../assets/crito/arrow-right.png" alt="Arrow Right">
+                    </div>
+                </div>
+                <!-- Third Box-->
+                <div  class="flex flex-col justify-between">
+                    <img src="../assets/crito/box1.jpg" alt="box1" class="w-full">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-white font-[Inter]">June 15-30, <b>New York-USA</b></p>
+                        <img src="../assets/crito/arrow-right.png" alt="Arrow Right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Company Start -->
+    <section class="bg-[#15BEE3]">
+        <div class="container flex p-10 items-center justify-center mx-auto lg:gap-30 gap-10 flex-wrap">
+            <img src="../assets/crito/logo1.png" alt="Logo 1" class="object-contain"> 
+            <img src="../assets/crito/logo2.png" alt="Logo 2" class="object-contain"> 
+            <img src="../assets/crito/logo3.png" alt="Logo 3" class="object-contain"> 
+            <img src="../assets/crito/logo4.png" alt="Logo 4" class="object-contain"> 
+        </div>
+    </section>
+    <!-- Company End -->
+
+    <!-- Grow Section Start -->
+    <section class="bg-[#FAFAFA] p-10 lg:p-30">
+        <div class="container flex flex-col mx-auto justify-center items-center gap-5">
+            <h2 class="text-5xl font-[Plus_Jakarta_Sans] font-bold tracking-[-1%] text-[#141F39] capitalize text-center">How to grow your business</h2>
+            <p class="text-[#141F39] font-[Inter] text-base lg:w-[35%] text-center">Class aptent taciti sociosqu ad litora torquen conubia nostramase inceptos himenaeo. Phasellus metus nisl euismod eget lorem.</p>
+            <div class="flex lg:flex-row flex-col gap-5">
+                <!-- Box 1 -->
+                 <div class="bg-white flex flex-col justify-center px-[36px] py-[64px] gap-2 lg:w-[370px] lg:h-[290px] w-full duration-200 hover:shadow-lg hover:border-b-[6px] border-[#15BEE3]">
+                    <img src="../assets/crito/grow1.png" alt="Grow 1" class="w-[65px] h-[56px]">
+                    <h4 class="font-[Plus_Jakarta_Sans] text-xl capitalize tracking-[-1%] text-[#141F39] font-bold">Active user analytics</h4>
+                    <p class="font-[Inter] text-base text-[#4f4f4f]">Class aptent taciti sociosqu litora torquen conubia nostram.</p>
+                 </div>
+                 <!-- Box 2 -->
+                 <div class="bg-white flex flex-col justify-center px-[36px] py-[64px] gap-2 lg:w-[370px] lg:h-[290px] w-full duration-200 hover:shadow-lg hover:border-b-[6px] border-[#15BEE3]">
+                    <img src="../assets/crito/grow2.png" alt="Grow 1" class="w-[65px] h-[56px]">
+                    <h4 class="font-[Plus_Jakarta_Sans] text-xl capitalize tracking-[-1%] text-[#141F39] font-bold">Smart Coding Development</h4>
+                    <p class="font-[Inter] text-base text-[#4f4f4f]">Morbi eget aliquet finibus, best condimentum aliquet quam.</p>
+                 </div>
+                <!-- Box 3 -->
+                 <div class="bg-white flex flex-col justify-center px-[36px] py-[64px] gap-2 lg:w-[370px] lg:h-[290px] w-full duration-200 hover:shadow-lg hover:border-b-[6px] border-[#15BEE3]">
+                    <img src="../assets/crito/grow3.png" alt="Grow 1" class="w-[65px] h-[56px]">
+                    <h4 class="font-[Plus_Jakarta_Sans] text-xl capitalize tracking-[-1%] text-[#141F39] font-bold">User Friendly Interface</h4>
+                    <p class="font-[Inter] text-base text-[#4f4f4f]">Quisque magna, sollicitudin vitae, lobortis feugiat arcu.</p>
+                 </div>
+            </div>
+            <p class="font-[Inter] text-base text-[#141F39] text-center">Approx <span class="font-bold text-[20px]">875+</span> team members ready to online support for you</p>
+        </div>
+    </section>
+    <!-- Grow Section End -->
+
+    <!-- Security Section Start -->
+    <section class="bg-white">
+        <div class="flex container mx-auto p-30 gap-5 justify-center items-center">
+            <div class="w-2/3 flex gap-5 flex-col">
+                <h2 class="text-[#141F39] font-[Plus_Jakarta_Sans] text-5xl font-bold tracking-[-1%]">Better Security To Better Protection An Experience Of Strength.</h2>
+                <p class="font-[Inter] text-base text-[#141F39] mb-5 w-[80%]">Class aptent taciti sociosqu ad litora torquent conubia nostrama inceptos himenaeos. Donec tristique nibh ipsum dignissim.</p>
+                <div class="h-[1px] bg-[#D4D4D8] w-[467px]"></div>
+                <div class="flex flex-col gap-5">
+                    <div class="flex gap-1 flex-col">
+                        <div>
+                            <h3 class="text-3xl font-[Plus_Jakarta_Sans] text-[#141F39] font-bold relative mt-[20px]">Well Organised User Interface</h3>
+                            <svg class="h-[82px] w-[65px] mt-[-60px] ml-[0px]" viewBox="-120 -120 240 240" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M 79.5057793797567,0 C 81.51218280261769,13.793415853188483 77.15056668927774,46.56587906108902 68.3139122964603,57.32217861223689 C 59.477257903642865,68.07847816338476 27.80112721352444,79.56917044283934 14.049080173701642,79.6762929714657 C 0.2970331338788448,79.78341550009206 -22.395601077804777,65.50129520020054 -33.553102813338185,58.115678824284004 C -44.71060454887159,50.73006244836746 -63.4480992214442,36.337108787697574 -68.59908083024953,24.968023520232084 C -73.75006243905487,13.598938252766596 -74.89298418869214,-12.204426890717073 -71.70852213782213,-26.099767601386272 C -68.52406008695212,-39.99510831205547 -56.40702470090019,-71.75253572610536 -45.01047304602728,-77.96042618842864 C -33.61392139115437,-84.16831665075192 -0.5820095889902515,-76.5538771912749 12.710379009384589,-72.08414139637354 C 26.00276760775943,-67.61440560147217 44.43428566971204,-54.582631240632665 53.45166471971228,-44.851272152122235 C 62.46904376971251,-35.119913063611804 77.49937595689572,-13.793415853188483 79.5057793797567,0 Z" fill="#DCEDC1" />
+                              </svg>
+                        </div>
+                        <p class="font-[Inter] text-base text-[#141F39] mt-[-10px]">Etiam id euismod odio. Ut euismod sem a lacus fringilla.</p>
+                    </div>
+                                        <div class="flex gap-1 flex-col">
+                        <div>
+                            <h3 class="text-3xl font-[Plus_Jakarta_Sans] text-[#141F39] font-bold relative mt-[20px]">Completely Bug Free</h3>
+                            <svg class="h-[82px] w-[65px] mt-[-60px] ml-[0px]" viewBox="-120 -120 240 240" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M 82.74622681478675,0 C 82.35536157367193,15.79314182838813 77.19215649833379,44.57291875687627 68.26173433783931,57.27839610640243 C 59.33131217734484,69.98387345592859 30.38438276518813,93.92466197053656 16.59495155186473,94.1146470335271 C 2.805520338541333,94.30463209651765 -19.731487644899126,67.05614115291174 -33.88220057566733,58.685692869295316 C -48.03291350643554,50.3152445856789 -83.09971155765732,43.56423506748524 -88.22514423160348,32.11132641414623 C -93.35057690554964,20.65841776080721 -78.62399214984336,-12.921954458582832 -71.8483685308241,-26.150667525808483 C -65.07274491180485,-39.379380593034135 -49.26632217299664,-60.724180585673054 -38.03533964627566,-65.87914075048822 C -26.80435711955468,-71.03410091530338 -3.396875598898326,-65.16868328284257 11.344094630072018,-64.33555763555046 C 26.08506485904236,-63.50243198825835 61.51774457523483,-68.39313994023487 71.15703242017132,-59.70783965943556 C 80.79632026510781,-51.022539378636246 83.13709205590158,-15.79314182838813 82.74622681478675,0 Z" fill="#FFD8D6" />
+                              </svg>
+                        </div>
+                        <p class="font-[Inter] text-base text-[#141F39] mt-[-10px]">Cras eleifend leo ac varius tristique suspendisse.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/3 ml-[-200px]">
+                <img src="../assets/crito/cards.png" alt="Cards" class="w-full h-[500px] object-contain">
+            </div>
+        </div>
+    </section>
+    <!-- Security Section End-->
+
+    <!-- CTA Section Start -->
+     <section>
+        <div>
+            
+        </div>
+     </section>
+    <!-- CTA Section End -->
 </body>
 </html>
